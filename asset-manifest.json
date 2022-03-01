@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NADrumMachine/static/css/main.61ce24eb.css",
-    "main.js": "/NADrumMachine/static/js/main.0c42ef05.js",
+    "main.css": "/NADrumMachine/static/css/main.a8d3f2b7.css",
+    "main.js": "/NADrumMachine/static/js/main.c2d2bf5b.js",
     "static/js/787.c419f7a1.chunk.js": "/NADrumMachine/static/js/787.c419f7a1.chunk.js",
     "static/media/Camera.wav": "/NADrumMachine/static/media/Camera.59efc9c7843a326d3915.wav",
     "static/media/Loop2.wav": "/NADrumMachine/static/media/Loop2.644df760c0389e77f8c2.wav",
@@ -15,12 +15,12 @@
     "static/media/Snare.wav": "/NADrumMachine/static/media/Snare.4febbeef38da326adf55.wav",
     "static/media/Loop1.wav": "/NADrumMachine/static/media/Loop1.8c89465eaacef8cbb9c4.wav",
     "index.html": "/NADrumMachine/index.html",
-    "main.61ce24eb.css.map": "/NADrumMachine/static/css/main.61ce24eb.css.map",
-    "main.0c42ef05.js.map": "/NADrumMachine/static/js/main.0c42ef05.js.map",
+    "main.a8d3f2b7.css.map": "/NADrumMachine/static/css/main.a8d3f2b7.css.map",
+    "main.c2d2bf5b.js.map": "/NADrumMachine/static/js/main.c2d2bf5b.js.map",
     "787.c419f7a1.chunk.js.map": "/NADrumMachine/static/js/787.c419f7a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61ce24eb.css",
-    "static/js/main.0c42ef05.js"
+    "static/css/main.a8d3f2b7.css",
+    "static/js/main.c2d2bf5b.js"
   ]
 }
