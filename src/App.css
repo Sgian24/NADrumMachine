@@ -1,38 +1,189 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.container {
+  display:flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 650px;
+}
+
+.machine {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: #c145a6;
+  width:700px;
+  height:400px;
+  border-radius: 15px;
+}
+
+.pad-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top:5px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  width:350px;
+}
+
+.screen{
+  width: 220px;
+  height: 45px;
+  background-color:  #A8C64E;
+  margin-top: 32px;
+  margin-left: 30px;
+  outline: 25px solid black;
+}
+
+.Padname {
+  text-align: center;
+  padding: none;
+  margin-top: 12px;
+  font-family: monospace;
+  font-size: 16px;
+}
+.pad {
+  background-color: rgb(168, 168, 168);
+  width:100px;
+  height: 100px;
+  border-radius: 5px;
+  box-shadow: 2px 2px;
+  border:none;
+}
+
+.pad:active, .pad2{
+  background-color: rgb(206, 200, 200);
+  width:100px;
+  height: 100px;
+  border-radius: 5px;
+  border:none;
+  box-shadow: 2px 2px;
+}
+
+.pad, #Volume-slider:focus{
+  outline: none;
+}
+
+.pad:hover{
+  cursor:pointer;
+}
+
+.OtherContainer{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+#Volume-slider {
+  transform: rotate(-90deg);
+  transform-origin: top left;
+  margin-top: 210px;
+  -webkit-appearance: none;
+  height:5px;
+  width: 150px;
+  background-color: black;
+  padding:none;
+  margin-left: 10px;
+}
+
+#Volume-slider::-webkit-slider-thumb{
+  appearance: none;
+  background-color: black;
+  width: 25px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.Slider-wrapper{
+  width:10px; 
+}
+
+.logo {
+  width: 130px;
+  height: 123px;
+  margin-top: 70px;
+  margin-left: 65px;
+}
+
+.InnerContainer {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+}
+
+.NA {
+  margin-top: 30px;
+  width:297px;
+  height: 80px;
+}
+
+.MPC {
+  font-family: helvetica;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.machine-div{
+  display: flex;
+  flex-direction: row;
+}
+
+.Billie {
+  font-weight: 400;
+  font-family: Anton;
+  font-style: italic;
+  margin-left: 20px;
+  color: #e5aeff;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+}
+
+#Spotify {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 24px;
   color: white;
+  transition: ease-out 0.2s;
 }
 
-.App-link {
-  color: #61dafb;
+#Spotify:hover {
+  color: #e5aeff;
+  transition: ease-in 0.2s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#Coded {
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+  margin-left: 132px;
+  margin-top: 20px;
+}
+
+.Error-message{
+  display: none;
+}
+
+@media only screen and (max-width: 720px){
+  .Error-message{
+    display:block;
   }
-  to {
-    transform: rotate(360deg);
+  .machine{
+    display:none;
+  }
+  .MPC{
+    display: none;
+  }
+  .NA{
+    display: none;
   }
 }
