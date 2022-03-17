@@ -14,7 +14,6 @@ import NA from './NA-title.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpotify } from '@fortawesome/free-brands-svg-icons';
 
-
 function App() {
   const drumkick = new Audio(kick);
   const snarehit = new Audio(snare);
