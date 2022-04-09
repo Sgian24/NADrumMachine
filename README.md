@@ -1,6 +1,6 @@
 # Neon Angel Drum Machine
 
-A drum machine I made using sounds from "Neon Angel" by artist Billie Rogue.
+A drum machine I made.
 
 ### Tools Used
 - create-react-app
