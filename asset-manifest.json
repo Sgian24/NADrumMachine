@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/NADrumMachine/static/css/main.9d8829a6.css",
+    "main.css": "/NADrumMachine/static/css/main.8f0366a3.css",
     "main.js": "/NADrumMachine/static/js/main.123aff90.js",
     "static/js/787.c419f7a1.chunk.js": "/NADrumMachine/static/js/787.c419f7a1.chunk.js",
     "static/media/Camera.wav": "/NADrumMachine/static/media/Camera.59efc9c7843a326d3915.wav",
@@ -15,12 +15,12 @@
     "static/media/Loop1.wav": "/NADrumMachine/static/media/Loop1.8c89465eaacef8cbb9c4.wav",
     "static/media/Kick.mp3": "/NADrumMachine/static/media/Kick.520b3dae1a55143fae9d.mp3",
     "index.html": "/NADrumMachine/index.html",
-    "main.9d8829a6.css.map": "/NADrumMachine/static/css/main.9d8829a6.css.map",
+    "main.8f0366a3.css.map": "/NADrumMachine/static/css/main.8f0366a3.css.map",
     "main.123aff90.js.map": "/NADrumMachine/static/js/main.123aff90.js.map",
     "787.c419f7a1.chunk.js.map": "/NADrumMachine/static/js/787.c419f7a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d8829a6.css",
+    "static/css/main.8f0366a3.css",
     "static/js/main.123aff90.js"
   ]
 }
